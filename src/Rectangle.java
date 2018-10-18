@@ -7,6 +7,12 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
+    public Rectangle(int side) {
+        super("Square");
+        this.length = side;
+        this.width = side;
+    }
+
     public double getArea() {
         return length * width;
     }
