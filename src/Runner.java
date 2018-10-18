@@ -3,8 +3,11 @@ public class Runner {
         Shape shape1 = new Rectangle(10,5);
         Shape shape2 = new ETriangle(5);
         Shape shape3 = new Circle(10);
+        Shape shape4 = new Ellipse(10,5);
+        Shape shape5 = new ITriangle(3,5);
+        Shape shape6 = new Square()
 
-        Shape[] shapes = {shape1, shape2, shape3};
+        Shape[] shapes = {shape1, shape2, shape3, shape4, shape5, shape6};
 
         for (Shape cur : shapes) {
             System.out.println(cur);
