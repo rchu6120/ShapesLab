@@ -17,7 +17,7 @@ public class ITriangle extends Shape {
      * @return the area of an isosceles triangle
      */
     public double getArea() {
-        double height = Math.sqrt((Math.pow(leg,2))-(Math.pow((base/2),2)));
+        double height = Math.sqrt((Math.pow(leg,2))-(Math.pow((base/2.0),2)));
         return (base * height)/2;
     }
 
