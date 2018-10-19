@@ -2,7 +2,7 @@ public class Ellipse extends Shape {
     private int majoraxis, minoraxis;
 
     /**
-     * Declares the Shape type as an "Ellipse"
+     * Declares the Shape type as "Ellipse"
      * @param majoraxis the major axis of an ellipse
      * @param minoraxis the minor axis of an ellipse
      */
@@ -20,6 +20,10 @@ public class Ellipse extends Shape {
         return Math.PI * majoraxis * minoraxis;
     }
 
+    /**
+     * Calculates the perimeter according to the formula
+     * @return the approximate perimeter of an ellipse
+     */
     public double getPerimeter() {
         return 2 * Math.PI * Math.sqrt((Math.pow(majoraxis,2) + Math.pow(minoraxis,2))/2);
     }
