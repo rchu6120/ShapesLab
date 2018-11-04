@@ -1,3 +1,4 @@
+//Ashanti Clarke
 public class ETriangle extends Shape {
     private int side;
 

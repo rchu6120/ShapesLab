@@ -1,3 +1,4 @@
+//Ricky Chu
 public class Ellipse extends Shape {
     private int majoraxis, minoraxis;
 

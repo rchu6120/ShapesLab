@@ -1,3 +1,4 @@
+//Ashanti Clarke
 public class ITriangle extends Shape {
     private int base, leg;
 
