@@ -1,3 +1,4 @@
+//Ricky Chu, Ashanti Clarke, Belal Jamil
 public abstract class Shape {
     private String type;
     public Shape(String type) {
